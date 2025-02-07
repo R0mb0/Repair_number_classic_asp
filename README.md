@@ -51,9 +51,9 @@ Repaired number: -0,00000028
   ```
 
 2. Use the class
-   ```
-       Response.write "Semple operation: 280 - 279.99 <br>"
-       Response.write "Semple number: " & 280 - 279.99 & "<br>"
-       Response.write "Repaired number: " & repair.repair_number(280 - 279.99) & "<br> <br>"
+  ```
+     Response.write "Semple operation: 280 - 279.99 <br>"
+     Response.write "Semple number: " & 280 - 279.99 & "<br>"
+     Response.write "Repaired number: " & repair.repair_number(280 - 279.99) & "<br> <br>"
    %>
-   ```
+  ```
