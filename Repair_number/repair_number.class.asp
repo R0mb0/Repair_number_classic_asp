@@ -124,11 +124,11 @@
         'Function to repair a number that cames from a bad operations 
         Public Function repair_number(number)
             Dim splitted_number
-            splitted_number = my_split(number)
             Dim number_array
             Dim number_properties
             Dim number_to_add
             If Not is_integer(number) Then 
+                splitted_number = my_split(number)
                 If Len(splitted_number(1)) > 10 Then 
                     number_properties = analyse_number(splitted_number(1))
                     number_array = string_to_array(number)
