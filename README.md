@@ -41,7 +41,7 @@ Repaired number: -0,00000028
 > From `Test.asp`
 
 1. Initialize the class
-  ```
+  ```asp
   <%@LANGUAGE="VBSCRIPT"%>
   <!--#include file="repair_number.class.asp" -->
   <% 
@@ -51,7 +51,7 @@ Repaired number: -0,00000028
   ```
 
 2. Use the class
-  ```
+  ```asp 
      Response.write "Semple operation: 280 - 279.99 <br>"
      Response.write "Semple number: " & 280 - 279.99 & "<br>"
      Response.write "Repaired number: " & repair.repair_number(280 - 279.99) & "<br> <br>"
